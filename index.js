@@ -38,6 +38,13 @@ var app5 = new Vue({
   methods:{
     reverseMessage:function(){
       this.myMessage = this.myMessage.split('').reverse().join('')
-    },
+    }
 }
+})
+
+var app6 = new Vue({
+  el:'#app-6',
+  data:{
+    inputMessage:'Hello '
+  }
 })
